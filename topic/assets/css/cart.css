@@ -1,0 +1,80 @@
+body {
+  background-color: rgba(0, 0, 0,.2);
+
+}
+/*購物籃*/
+.item_header {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  height: 30px;
+  background-color: rgb(94, 255, 207);
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.item_header div {
+  width: 200px;
+  color: rgb(0, 0, 0);
+  line-height: 30px;
+}
+
+.item_header .item_detail {
+  width: 50%;
+}
+
+.item_body {
+  margin-top: 20px;
+  height: 100px;
+  align-items: center;
+}
+
+.item_detail img {
+  width: 80px;
+  height: 80px;
+  border-radius: 3px;
+  float: left;
+}
+
+.item_detail .name {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.flex {
+  /*display: -webkit-box;*/
+  /*display: -moz-box;*/
+  /*display: -ms-flexbox;*/
+  display: -webkit-flex;
+  display: flex;
+  /*background-color: #ffffff;*/
+}
+
+.flex-child {
+  -webkit-box-flex: 1 1 auto;
+  -moz-box-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  outline: initial;
+  height: 30px;
+  border: none;
+  border-top-style: initial;
+  border-right-style: hidden;
+  border-left-style: inset;
+  border-bottom-style: ridge;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.flex-child:hover {
+  text-decoration: underline;
+  background-color: #ADADAD;
+  color: var(--bs-white);
+}
+
+.alfabetBox {
+  display: none;
+}
+

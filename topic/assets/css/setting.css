@@ -1,0 +1,88 @@
+.form-label {
+  color: #888888;
+  
+}
+/*purchase_page 購買按鈕*/
+.btn1{
+  font-size:24px;
+}
+/*purchase_page*/
+.item_container1{
+  display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    height: 30px;
+    background-color: rgb(255,255,255);
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.ccl1{
+  margin: 0px auto;
+  text-align: center;
+}
+
+.ccl1 div {
+  vertical-align: top;
+  width: 150px;
+  height: 180px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+div.yee1{
+  width: auto;
+  text-align: right;
+  height: auto;
+  border: 0px solid #000;
+  border-radius: 0px;
+  font-size: 20px;
+}
+
+.ccl1 .brth {
+  color: #000;
+  cursor: help;
+  line-height: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size:16px;
+}
+.ccl1 .brth1 {
+  color: #000;
+  cursor: help;
+  line-height: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size:18px;
+}
+
+.ccl1 a{
+  width: 140px;
+  height: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.ccl1 p{
+  margin: 8px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+p.yee {
+  width: 200px;
+  height: 30px;
+  text-align: right;
+  display: inline-block;
+}
+
+.ccl1 b {
+  color: #e06666;
+  font-size: 16px;
+}
+.item_detail2 img{
+  width: 80px;
+  height: 80px;
+  border-radius: 3px;
+  text-align:center;
+}

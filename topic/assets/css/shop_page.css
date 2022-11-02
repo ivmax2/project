@@ -1,0 +1,150 @@
+#commodity_page {
+    background-color: white;
+    height:auto;
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.col3f{
+    font: 13px/1.2 Arial,Verdana,'Microsoft JhengHei',Helvetica,sans-serif;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    position: relative;
+    padding:0px 10px 10px 0;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    overflow: hidden;
+    height: auto;
+    background-color: rgb(94, 255, 207);
+    text-align:center;
+    width: 77%;
+}
+.c1f{
+    font: 13px/1.2 Arial,Verdana,'Microsoft JhengHei',Helvetica,sans-serif;
+    word-break: break-all;
+    box-sizing: border-box;
+    outline: 0;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+    color: #000;
+    border: 5px solid #fff;
+    background: #fff;
+    float: left;
+}
+.c2f{
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    padding: 0;
+    overflow: hidden;
+    word-break: break-word;
+    margin: 0 14px;
+    color: #666;
+    font: 24px/1.2 Arial,Verdana,'Microsoft JhengHei',Helvetica,sans-serif;
+    float: left;
+    width:50%;
+    text-align:left;
+}
+.c3f{
+    font: 13px/1.2 Arial,Verdana,'Microsoft JhengHei',Helvetica,sans-serif;
+    word-break: break-all;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    width: auto;
+    margin-top: 42px;
+    text-align: right;
+    float: right;
+    margin: auto;
+}
+
+.prod_img{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.prod_img img{
+    max-height: 120px;
+    display: inline;
+    max-width: 100%;
+    vertical-align: middle;
+    width: 200px;
+    height:175px;
+}
+
+.prod_name{
+    color: #666;
+    font: 12px/1.2 Arial,Verdana,'Microsoft JhengHei',Helvetica,sans-serif;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    overflow: hidden;
+    word-break: break-all;
+}
+.container{
+    position: relative; 
+}
+.container1{
+    position: relative; 
+}
+.tag_box{
+    word-break: break-all;
+    color: #666;
+    font: 12px/1.2 Arial,Verdana,'Microsoft JhengHei',Helvetica,sans-serif;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    list-style: none;
+    text-align: left;
+    height: 20px;
+}
+.nick{
+    display : -webkit-box;
+    overflow : hidden;
+    text-overflow : ellipsis;
+    white-space : nowrap;
+    white-space:pre-wrap;
+    width : auto;
+    height: auto;
+    overflow:hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font: 20px/1.2 Arial,Verdana,'Microsoft JhengHei',Helvetica,sans-serif;
+}
+
+.price_box{
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    margin: auto;
+    padding: auto;
+    list-style: none;
+    margin-bottom: 10px;
+    font: 20px Verdana,Arial,Helvetica;
+    color: #222;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Register - Brand</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="../assets/css/cart.css">
+    <link rel="stylesheet" href="../assets/css/setting.css">
+    <link rel="stylesheet" href="../assets/css/top setting.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-twzipcode@1.7.14/jquery.twzipcode.min.js"></script>
+        <style>
+        .city, .town{width: 100%;}
+        .f1{float:left;margin-left:5px;margin-right:5px;width:calc(5% - 10px)}
+        .f2{float:left;margin-left:5px;margin-right:5px;width:calc(10% - 10px)}
+        .f3{float:left;margin-left:5px;margin-right:5px;width:calc(15% - 10px)}
+        .f4{float:left;margin-left:5px;margin-right:5px;width:calc(20% - 10px)}
+        .f5{float:left;margin-left:5px;margin-right:5px;width:calc(25% - 10px)}
+        .f6{float:left;margin-left:5px;margin-right:5px;width:calc(30% - 10px)}
+        .f7{float:left;margin-left:5px;margin-right:5px;width:calc(35% - 10px)}
+        .f8{float:left;margin-left:5px;margin-right:5px;width:calc(40% - 10px)}
+        .f9{float:left;margin-left:5px;margin-right:5px;width:calc(45% - 10px)}
+        .f10{float:left;margin-left:5px;margin-right:5px;width:calc(50% - 10px)}
+        .f11{float:left;margin-left:5px;margin-right:5px;width:calc(55% - 10px)}
+        .f12{float:left;margin-left:5px;margin-right:5px;width:calc(60% - 10px)}
+        .f13{float:left;margin-left:5px;margin-right:5px;width:calc(65% - 10px)}
+        .f14{float:left;margin-left:5px;margin-right:5px;width:calc(70% - 10px)}
+        .f15{float:left;margin-left:5px;margin-right:5px;width:calc(75% - 10px)}
+        .f16{float:left;margin-left:5px;margin-right:5px;width:calc(80% - 10px)}
+        .f17{float:left;margin-left:5px;margin-right:5px;width:calc(85% - 10px)}
+        .f18{float:left;margin-left:5px;margin-right:5px;width:calc(90% - 10px)}
+        .f19{float:left;margin-left:5px;margin-right:5px;width:calc(95% - 10px)}
+        .f20{float:left;margin-left:5px;margin-right:5px;width:calc(100% - 10px)}
+        </style>
+</head>
+
+<body class="bg-gradient-primary" style="background: #84ffdb;">
+<div class="container">
+    <div class="card shadow-lg o-hidden border-0 my-5">
+        <div class="card-body p-0">
+            <div class="p-5">
+                <div class="text-center">
+                    <h4 class="text-dark mb-4">創建一個帳號吧!</h4>
+                </div>
+                <form class="user" action="../Ly/register.php" method="post" id="clear-form">
+                    <div class="row mb-3">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <input class="form-control form-control-user" type="text" id="First_Name" placeholder="姓氏" name="first_name" required/></div>
+                        <div class="col-sm-6">
+                            <input class="form-control form-control-user" type="text" id="last_name" placeholder="名字" name="last_name" required /></div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <select required class="form-control form-control-user"  id="sex" name="sex" >
+                                <option value="" selected>請選擇性別</option>
+                                <option value="男" >男</option>
+                                <option value="女" >女</option>
+                                <option value="其他" >其他</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-6">
+                            <input class="form-control form-control-user" type="text" id="user_phone_number" placeholder="電話" name="phone" onkeyup="checkPhone()" required/>
+                            <span id="uidt"></span></div>
+                    </div>
+                    <div class=" mb-3">出生年月日(非必填)</div>
+                    <div class=" row mb-3">
+                        <select class="sel_year  f2 form-control form-control-user" rel="--" id="year" name="year" required> </select> 
+                        <select class="sel_month  f2 form-control form-control-user" rel="--" id="month" name="month" required> </select> 
+                        <select class="sel_day  f2 form-control form-control-user" rel="--" id="day" name="day" required> </select>
+                    </div>
+                    <div class=" mb-3">住家地址(運送水果用)</div>
+                    <div id="zipcode3" >
+                        <div class="f3" data-role="county" id="city" ></div>
+                        <div class="f4" data-role="district" id="town" ></div>
+                    </div>
+                    <input name="Address" type="text" class="f13 address form-control form-control-user row mb-3" required>
+                    <script>
+                        $("#zipcode3").twzipcode({
+                            "zipcodeIntoDistrict": true,
+                            "css": ["city form-control form-control-user", "town form-control form-control-user"],
+                            "countyName": "city", // 指定城市 select name
+                            "districtName": "town" // 指定地區 select name
+                        });
+                    </script>
+                    <div class="mb-3">
+                        <input class="form-control form-control-user" type="email" id="InputEmail" aria-describedby="emailHelp" placeholder="帳號(Email)" name="email" required/>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <input class="form-control form-control-user" type="password" id="InputPassword" placeholder="密碼(Password)" name="password" required/>
+                        </div>
+                        <div class="col-sm-6">
+                            <input class="form-control form-control-user" type="password" id="RepeatPasswordInput" placeholder="確認密碼" name="password_repeat" onkeyup="validate()" required/>
+                            <span id="tishi"></span>
+                        </div>
+                    </div>
+                    <input type="checkbox" onclick="ShowPwd()">顯示密碼
+                    <script>
+                        function ShowPwd() {
+                            var x = document.getElementById("InputPassword");
+                            if (x.type === "password") {
+                                x.type = "text";}
+                            else {x.type = "password";}}
+                    </script>
+                    <input class="btn btn-primary d-block btn-user w-100" disabled="disabled" type="submit" id="buttons" value="創建帳號">
+                    <script>
+                        function validate() {
+                            var pwd1 = document.getElementById("InputPassword").value;
+                            var pwd2 = document.getElementById("RepeatPasswordInput").value;
+                            if(pwd1 == pwd2){                        
+                                document.getElementById("buttons").disabled = false;
+                                document.getElementById("tishi").innerHTML="<font color='green'>密碼相同</font>";}
+                            else {
+                                document.getElementById("tishi").innerHTML="<font color='red'>兩次密碼不相同</font>";
+                                }}</script>
+                    <hr />
+                    <a class="btn btn-primary d-block btn-google btn-user w-100 mb-2" role="button">
+                        <i class="fab fa-google"></i> Register with Google</a>
+                        <a class="btn btn-primary d-block btn-facebook btn-user w-100" role="button">
+                            <i class="fab fa-facebook-f"></i> Register with Facebook</a>
+                    <hr />
+                </form>
+                <div class="text-center">
+                    <a class="small" href="forgot-password.html">忘記密碼嗎?</a></div>
+                <div class="text-center">
+                    <a class="small" href="login.html">已經有帳號了嗎? 登入吧!</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/birthday.js"></script>
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</body>
+</html>

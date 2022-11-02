@@ -1,0 +1,159 @@
+.ccle {
+  margin: 0px auto;
+  text-align: center;
+  /*background-color: #ffffff;*/
+}
+
+.ccle div {
+  display: inline-block;
+  vertical-align: top;
+  width: 130px;
+  height: 165px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.ccle .brth {
+  background: #84ffdb;
+  color: #000;
+  cursor: help;
+  line-height: 20px;
+  border-radius: 20px;
+}
+
+.ccle a {
+  margin: 8px;
+  width: 70px;
+  height: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.ccle p {
+  margin: 8px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.ccle b {
+  color: #e06666;
+  font-size: 16px;
+}
+
+.ccl {
+  margin: 0px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.ccl div {
+  display: inline-block;
+  vertical-align: top;
+  width: 130px;
+  height: 165px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.ccl .brth {
+  background: #84ffdb;
+  color: #000;
+  cursor: help;
+  line-height: 20px;
+  border-radius: 20px;
+  /*background: #1CB990;*/
+  /*color: #fff;*/
+  /*cursor: help;*/
+  /*line-height: 20px;*/
+  /*border-radius: 20px;*/
+}
+
+.ccl a {
+  margin: 8px;
+  width: 70px;
+  height: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.ccl p {
+  margin: 8px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.ccl b {
+  color: #e06666;
+  font-size: 16px;
+}
+
+.ccl img {
+  margin-top: 5px;
+}
+
+.link11 {
+  margin: 0px auto;
+  text-align: center;
+  /*width: 100%;*/
+}
+
+.link11 .img-profile {
+  width: 40px;
+  /*margin: 0px auto;*/
+  margin-top: -3px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.navbar-expand1 {
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.navbar-expand1 .navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-expand1 .navbar-nav .dropdown-menu {
+  position: absolute;
+}
+
+.navbar1 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.navbar-search1.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.topbar .navbar-search1 {
+  width: 30rem;
+}
+
+@media (min-width: 1000px) {
+  .ms-md-7 {
+    margin-left: 15rem !important;
+  }
+}
+/*更改照片*/
+.photo{
+  width: 96px;
+}
