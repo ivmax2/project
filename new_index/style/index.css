@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+a{
+   color: white;
+}
+
+.b{ background: rgb(31, 31, 31);}
+
+/*記登註*/
+.L{text-align:center;}
+
+/*彩蛋*/
+.g{
+width:1px;
+line-height:20px;
+float:left;
+}
+.a{
+   color: rgba(0, 0, 0, 0);
+   text-align: left;
+}
+
+/*圖片*/
+.P{text-align:center;}
+
+/*餅乾總數*/
+.C{color: white;
+   text-align:center;
+   line-height: 50px;
+}
+
+/*表單格式*/
+.col{
+display: block;
+flex-basis: 100%;
+flex-grow :0;
+flex-shrink: 0;
+position:relative;
+text-align: center;
+}
+.table{
+border-bottom-color: rgb(128, 128, 128);
+border-collapse: separate;
+border-left-color: rgb(128, 128, 128);
+border-right-color: rgb(128, 128, 128);
+border-top-color: rgb(255, 255, 255);
+box-sizing :border-box;
+color: rgb(211, 211, 211);
+display: table;
+font-size :20px;
+font-weight: 400;
+height :250px;
+line-height: 40px;
+margin:0px auto;
+text-align :left;
+text-indent :0px;
+text-size-adjust: 100%;
+touch-action: manipulation;
+width :500px;
+-webkit-border-horizontal-spacing: 1.81818px;
+-webkit-border-vertical-spacing: 1.81818px;
+-webkit-tap-highlight-color :rgba(0, 0, 0, 0);
+}
+
+/*商店表單*/
+.am{
+border-collapse: collapse;
+border-top-color: rgb(52, 58, 64);
+border-top-style: solid;
+border-top-width: 0.994318px;
+color :rgb(211, 211, 211);
+display: table-cell;
+text-size-adjust: 100%;
+touch-action: manipulation;
+vertical-align: middle;
+-webkit-border-horizontal-spacing :1.81818px;
+-webkit-border-vertical-spacing: 1.81818px;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*商店*/
+.shop{
+   background:rgb(31, 31, 31);
+   color:rgb(255, 255, 255);
+   text-align:center;
+   line-height: 0px;
+}
+
+/*紀錄分數*/
+.button {
+   display: inline-block;
+   text-align: center;
+   vertical-align: middle;
+   padding: 18px 40px;
+   border: 0px solid #ffffff;
+   border-radius: 100px;
+   background: #0099ff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#0099ff), to(#0059a1));
+   background: -moz-linear-gradient(top, #0099ff, #0059a1);
+   background: linear-gradient(to bottom, #0099ff, #0059a1);
+   font: normal normal bold 22px arial;
+   color: #ffffff;
+   text-decoration: none;
+}
+.button:hover,
+.button:focus {
+   background: #00b8ff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#00b8ff), to(#006bc1));
+   background: -moz-linear-gradient(top, #00b8ff, #006bc1);
+   background: linear-gradient(to bottom, #00b8ff, #006bc1);
+   color: #ffffff;
+   text-decoration: none;
+}
+.button:active {
+   background: #005c99;
+   background: -webkit-gradient(linear, left top, left bottom, from(#005c99), to(#0059a1));
+   background: -moz-linear-gradient(top, #005c99, #0059a1);
+   background: linear-gradient(to bottom, #005c99, #0059a1);
+}
+
+/*烤餅乾按鈕*/
+.button1 {
+   display: inline-block;
+   text-align:center;
+   vertical-align: middle;
+   padding: 2px 12px;
+   border: 0px solid #ffffff;
+   border-radius: 10px;
+   background: #0099ff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#0099ff), to(#0059a1));
+   background: -moz-linear-gradient(top, #0099ff, #0059a1);
+   background: linear-gradient(to bottom, #0099ff, #0059a1);
+   font: normal normal bold 20px arial;
+   color: #ffffff;
+   text-decoration: none;
+}
+.button1:hover,
+.button1:focus {
+   background: #00b8ff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#00b8ff), to(#006bc1));
+   background: -moz-linear-gradient(top, #00b8ff, #006bc1);
+   background: linear-gradient(to bottom, #00b8ff, #006bc1);
+   color: #ffffff;
+   text-decoration: none;
+}
+.button1:active {
+   background: #005c99;
+   background: -webkit-gradient(linear, left top, left bottom, from(#005c99), to(#0059a1));
+   background: -moz-linear-gradient(top, #005c99, #0059a1);
+   background: linear-gradient(to bottom, #005c99, #0059a1);
+}
+
+/*商店按鈕*/
+.button2 {
+   display: inline-block;
+   text-align:center;
+   vertical-align: middle;
+   padding: 2px 12px;
+   border: 0px solid #ffffff;
+   border-radius: 10px;
+   background: #0099ff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#0099ff), to(#0059a1));
+   background: -moz-linear-gradient(top, #0099ff, #0059a1);
+   background: linear-gradient(to bottom, #0099ff, #0059a1);
+   font: normal normal bold 20px arial;
+   color: #ffffff;
+   text-decoration: none;
+}
+.button2:hover,
+.button2:focus {
+   background: #00b8ff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#00b8ff), to(#006bc1));
+   background: -moz-linear-gradient(top, #00b8ff, #006bc1);
+   background: linear-gradient(to bottom, #00b8ff, #006bc1);
+   color: #ffffff;
+   text-decoration: none;
+}
+.button2:active {
+   background: #005c99;
+   background: -webkit-gradient(linear, left top, left bottom, from(#005c99), to(#0059a1));
+   background: -moz-linear-gradient(top, #005c99, #0059a1);
+   background: linear-gradient(to bottom, #005c99, #0059a1);
+}
+
+/*彈跳視窗*/
+.jump{
+   text-align:center;
+}
+
+/*彈跳視窗X*/
+.x{
+   text-align:right;
+}
+
+/*彈跳視窗按鈕*/
+.bu{
+   text-align:center;
+}
+
+/*彈跳視窗輸入*/
+.mb-3{
+text-align:center;
+box-sizing: border-box;
+color: rgb(133, 135, 150);
+display :block;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom :20px;
+overflow-wrap: break-word;
+text-size-adjust: 100%;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+.form-control{
+appearance :none;
+background-clip: padding-box;
+background-color :rgb(255, 255, 255);
+border-bottom-color: rgb(209, 211, 226);
+border-bottom-left-radius :200px;
+border-bottom-right-radius: 200px;
+border-bottom-style :solid;
+border-bottom-width :1px;
+border-image-outset: 0;
+border-image-repeat :stretch;
+border-image-slice :100%;
+border-image-source :none;
+border-image-width :1;
+border-left-color :rgb(209, 211, 226);
+border-left-style :solid;
+border-left-width :1px;
+border-right-color:rgb(209, 211, 226);
+border-right-style: solid;
+border-right-width :1px;
+border-top-color :rgb(209, 211, 226);
+border-top-left-radius :200px;
+border-top-right-radius: 200px;
+border-top-style :solid;
+border-top-width: 1px;
+box-sizing :border-box;
+color :rgb(133, 135, 150);
+font-size :16px;
+font-stretch :100%;
+font-weight :400;
+padding-bottom :10px;
+padding-left :10px;
+padding-right: 10px;
+padding-top :10px;
+text-align :start;
+text-indent: 0px;
+text-rendering: auto;
+text-shadow :none;
+width :367.5px;
+}
+
+/*主題*/
+.binp{
+   width: 200px;
+   height: 300px;
+   display:inline-block;
+}
+
+.photo{
+   height: 2rem;
+   width: 2rem;
+}
